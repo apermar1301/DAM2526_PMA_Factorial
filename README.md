@@ -1,0 +1,94 @@
+
+
+# DAM2526_PMA_Factorial
+
+## Comando utilizado para ver el historial de forma gráfica:
+
+> `git log --oneline --graph --all`
+
+## Imagenes
+
+### Apartado 2:
+
+![verifApartado2](src/img/verifApartado2.jpg)
+
+### Apartado 3:
+
+![verifApartado3](src/img/verifApartado3.jpg)
+
+
+
+## HISTORIAL
+
+1.  `git init` 
+2.  `git status`
+3.  `ls`
+4.  `git add src/`
+5.  `git commit -m "Version inicial que pide número y realiza comprobación"`
+6.  `git add src/`
+7.  `git commit -m "Versión B: Función pedirNumbero()"`
+8.  `git add src/`
+9.  `git commit -m "Version C: sysout RESULTADO"`
+
+10.  `git remote add origin https://github.com/apermar1301/DA.M2526_PMA_Factorial.git`
+11.  `git branch -M main.`
+12.  `git push -u origin main.`
+13.  `git switch -c factorial_recursivo.`
+14.  `ls.`
+15.  `git add src/.`
+16.  `git commit -m "Versión F1: Función recursiva creada".`
+17.  `git add src/.`
+18.  `git commit -m "Versión F2: Función factorialRec() aplic.ado (ln 19)"`
+19.  `git add src/.`
+20.  `git commit -m "Versión F3: Documentación de función fac.torialRec() con JavaDoc"`
+21.  `git log --oneline.`
+22.  `git log --oneline --graph --all.`
+23.  `git add src/.`
+24.  `git status.`
+25.  `git commit -m "Versión F4: Captura de pantalla comando .git log --oneline --graph --all"`
+26.  `git switch main.`
+27.  `git add src/.`
+28.  `git commit -m "Versión D: Mejora de la función pedirNum.ero() y uso de Scanner.hasNextInt()"`
+29.  `git push -u origin main.`
+30.  `git add src/.`
+31.  `git commit -m "Versión E: Cambio de la función factoria.lRec() a factorialBucle()"`
+32.  `git add src/.`
+33.  `git commit -m "Versi.`
+34.  `git log --oneline --graph.`
+35.  `git status.`
+36.  `git log --oneline --graph.`
+37.  `git push -u origin main.`
+38.  `git add src.`
+39.  `git add src/.`
+40.  `git commit -m "Versión F: Salida función iterativa".`
+41.  `git push -u origin main.`
+42.  `git log --oneline --graph.`
+43.  `git log --oneline --graph -all.`
+44.  `git log --oneline --graph --all.`
+45.  `git switch factorial_recursivo.`
+46.  `git rebase main.`
+47.  `git status.`
+48.  `git add src/.`
+49.  `git commit -m "Versión unida main-factorial_recursivo".`
+50.  `git add src/.`
+51.  `git commit -m "Versón Final F4: sysout".`
+52.  `git push -u origin main.`
+53.  `git merge.`
+54.  `git switch factorial_recursivo.`
+55.  `git switch main.`
+56.  `git rebase --continue.`
+57.  `git add src/.`
+58.  `git rebase --continue.`
+59.  `git add src/.`
+60.  `git commit -m "Versión unida main-factorial_recursivo".`
+61.  `git push -u origin main.`
+62.  `git switch main.`
+63.  `git add src/.`
+64.  `git commit -m "Subida de capuras de pantalla" .`
+65.  `git push -u origin main.`
+66.  `touch README.md && code README.md.`
+67.  `git add src/.`
+68.  `cd src.`
+69.  `ls.`
+70.  `cd ...`
+71.  `git add README.md.`
