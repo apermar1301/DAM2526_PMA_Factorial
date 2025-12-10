@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Factorial {
 
+    private static Scanner sc = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 
         int num = pedirNumero();
@@ -13,12 +15,11 @@ public class Factorial {
         } else {
             System.out.println("Has introducido el número: " + num);
         }
-
         
+        System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
 	}
 	
 	public static int pedirNumero() {
-        Scanner sc = new Scanner(System.in);
 		System.out.print("Introduce un número entero mayor o igual que 0: ");
         return sc.nextInt();
 	}
