@@ -4,39 +4,54 @@ import java.util.Scanner;
 
 public class Factorial {
 
-    private static Scanner sc = new Scanner(System.in);
-	
+	private static Scanner sc = new Scanner(System.in);
+
 	public static void main(String[] args) {
 
-        int num = pedirNumero();
+		int num = pedirNumero();
 
-        if (num < 0) {
-            System.err.println("ERROR: el número debe ser mayor o igual que 0.");
-        } else {
-            System.out.println("Has introducido el número: " + num);
-        }
-        
-        System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
+		if (num < 0) {
+			System.err.println("ERROR: el número debe ser mayor o igual que 0.");
+		} else {
+			System.out.println("Has introducido el número: " + num);
+		}
+
+		System.out.println(
+				"RESULTADO - En versiones posteriores se calculará el factorial del número " + factorialBucle(num));
 	}
-	
+
 	private static int pedirNumero() {
-	    int num;
-	    boolean valido;
+		int num;
+		boolean valido;
 
-	    do {
-	        System.out.print("Introduce un número entero mayor o igual que 0: ");
-	        if (sc.hasNextInt()) {
-	            num = sc.nextInt();
-	            valido = true;
-	        } else {
-	            System.out.println("Entrada no válida. Introduce un entero.");
-	            sc.next();
-	            valido = false;
-	            num = -1;
-	        }
-	    } while (!valido);
+		do {
+			System.out.print("Introduce un número entero mayor o igual que 0: ");
+			if (sc.hasNextInt()) {
+				num = sc.nextInt();
+				valido = true;
+			} else {
+				System.out.println("Entrada no válida. Introduce un entero.");
+				sc.next();
+				valido = false;
+				num = -1;
+			}
+		} while (!valido);
 
-	    return num;
+		return num;
+	}
+
+	private static long factorialBucle(int n) {
+
+		long total = 1;
+
+		for (int i = 1; i < n + 1; i++) {
+
+			total *= i;
+
+		}
+		
+		return total;
+
 	}
 
 }
